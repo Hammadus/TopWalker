@@ -40,7 +40,7 @@ Original App Design Project - README Template
    * people will have the ability to add others to the task
    * User make an account and add other people/friends 
 * Progress Screen
-   * timeline using the google api
+   * timeline using the google api/Apple Health API
    * tracks steps walked over time in calendar view as well
 * End session Screen
    * when the session is over, users will have to pick a payment option to send to the winner
