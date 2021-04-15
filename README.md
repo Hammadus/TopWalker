@@ -139,6 +139,7 @@ userPass     | String| Encrypted password of user
 userAge     | Number | age of user  
 userWeight  | Number | weight of user
 userHeight  | Number | height of user 
+userCityState  | String | City and State of the user
 stepCount  | Number | number of steps by user retrieved from api
 friendListCount  | Number | Total number of users in the Friend List
 
