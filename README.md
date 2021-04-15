@@ -114,7 +114,7 @@ APP GROUP PROJECT - README
 
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
+
 
 ![View_Sketch](https://user-images.githubusercontent.com/42243986/114639374-a9f1eb80-9c9b-11eb-82a2-d8615c45f758.jpg)
 
@@ -125,6 +125,21 @@ APP GROUP PROJECT - README
 
 ## Schema 
 [This section will be completed in Unit 9]
+
+Property | Type | Description
+| :--- | :--- | :---
+nameOfUser  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+Age  | Content Cell | Content Cell
+
 ### Models
 [Add table of models]
 ### Networking
