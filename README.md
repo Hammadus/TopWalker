@@ -28,10 +28,26 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* As a new user, I want to sync this app with my activity tracker so that I can view my progress twoards my daily activity goals
+* User can sign up for a new account
+* User can login with username and password
+* User can Create a new session
+* User can choose the Money Amount for the session being created
+* User can Add friends to the session being created
+* User can choose time period for the session
+* User can view the record of their steps taken
+* User can view the time left till the session ends
+* User can see the TIME UP screen with the name of the winner
+* User can choose Payment Method to pay the winner
+* User can add Friends to the FriendList
+* User can view his/her Profile
+
 * As a user, I want to have the option of adding steps to a total counter to get to my ultimate goal of 10k steps a day
 * As a user, I want to have something that will be able to keep a history of my progress to see how far I've come, and who motivates me the motivates
 * As a user I want to have an app that syncs with others to track goals
+
+**Optional Nice-to-have Stories**
+
+* User can view the other members in the session
 
 ### 2. Screen Archetypes
 
