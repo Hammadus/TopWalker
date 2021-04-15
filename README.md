@@ -126,24 +126,62 @@ APP GROUP PROJECT - README
 ## Schema 
 [This section will be completed in Unit 9]
 
+
+### Models
+[Add table of models]
+
+
+### User
 Property | Type | Description
 | :--- | :--- | :---
 nameOfUser  | Pointer to User | user in charge
 userAge     | Number | age of user  
 userWeight  | Number | weight of user
-userHeight  | Number | height of user  
+userHeight  | Number | height of user 
 stepCount  | Number | number of steps by user retrieved from api
+friendListCount  | Number | Total number of users in the Friend List
+
+### Session
+Property | Type | Description
+| :--- | :--- | :---
 sessionId  | String | unique id of the session (default)
 moneyAmount  | Number | Ampount of money user began session with
-friendListCount  | Number | Total number of users in the Friend List
-numberOfFriendsinSession  | Number | number of friends currently in the session
 timeChosen  | Number | Time Period Chosen for the session
 timeLeft  | Number | Amount of time left until session ends 
+winnerUser | String | Name of the user with highest steps when session ends
+numberOfFriendsinSession  | Number | number of friends currently in the session
 
-### Models
-[Add table of models]
+
+create(POST) , read(GET), update(PUT) ,delete(DELETE)
+
 ### Networking
 - [Add list of network requests by screen ]
+- 
+### List of network requests by screen
+
+* Login Screen
+   * (Read/GET) Query log in user object
+* New User SignUp Screen
+   * (Create/POST) Create a new user
+* Create Session Screen
+   * (Create/POST) Create a new Session
+* Adding Session Info Screen
+   * (Update/PUT) Update/Replace/Choose the following (amount, friends, time)
+* Timeline Screen
+   * (Read/GET) Query the steps of current user
+   * (Read/GET) Calculate the time left until session ends
+* Time UP Screen
+   * (Read/GET) Query the user from the session list with highest steps
+* FriendList Screen
+   * (Read/GET) Query the list of users in the Friendist of current user
+* Detailed Friend Info Screen
+   *
+* User Profile Setting Screen
+   *
+
+
+
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
