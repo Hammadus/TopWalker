@@ -43,7 +43,7 @@ APP GROUP PROJECT - README
 * User can see the TIME UP screen with the name of the winner
 * User can choose Payment Method to pay the winner
 
-* User can view their Profile info with Name, Age, Weight, Height in Profile/Setting Tab
+* User can view their Profile info with Name, Age, Weight, Height, City(w/ State) in Profile/Setting Tab
 
 **Optional Nice-to-have Stories**
 * User can edit their info after sign up screen is gone
@@ -62,7 +62,7 @@ APP GROUP PROJECT - README
 * Login Screen
    * User can login with username and password
 * New User SignUp Screen
-   * User can sign up for a new account by adding (username,password, Age, Weight, Height)
+   * User can sign up for a new account by adding (username, password, Age, Weight, Height, City(w/ State))
 * Create Session Screen
    * User can Create a new activity session 
 * Adding Session Info Screen
@@ -135,6 +135,7 @@ APP GROUP PROJECT - README
 Property | Type | Description
 | :--- | :--- | :---
 nameOfUser  | Pointer to User | user in charge
+userPass     | String| Encrypted password of user 
 userAge     | Number | age of user  
 userWeight  | Number | weight of user
 userHeight  | Number | height of user 
@@ -166,18 +167,21 @@ create(POST) , read(GET), update(PUT) ,delete(DELETE)
 * Create Session Screen
    * (Create/POST) Create a new Session
 * Adding Session Info Screen
-   * (Update/PUT) Update/Replace/Choose the following (amount, friends, time)
+   * (Update/PUT) Update the money amount 0 with new amount entered by current user
+   * (Update/PUT) Add the friends(other users) from the friendlist to the session
+   * (Update/PUT) Update the time period 0 with new time period entered by current user (time in weeks)
 * Timeline Screen
    * (Read/GET) Query the steps of current user
    * (Read/GET) Calculate the time left until session ends
 * Time UP Screen
-   * (Read/GET) Query the user from the session list with highest steps
+   * (Read/GET) Query the user from the session list with highest steps earned at the time of session ending
 * FriendList Screen
-   * (Read/GET) Query the list of users in the Friendist of current user
+   * (Update/PUT) Use Add Button to add users from database to the friendlist array using their username (all users are in database)
+   * (Read/GET) Query the list of users in the Friendist of current user 
 * Detailed Friend Info Screen
-   *
+   * (Read/GET) Query the info of selected user from the friendlist
 * User Profile Setting Screen
-   *
+   * (Read/GET) Query the current user's name, Age, Weight, Height, City w/ State 
 
 
 
