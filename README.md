@@ -156,8 +156,8 @@ numberOfFriendsinSession  | Number | number of friends currently in the session
 create(POST) , read(GET), update(PUT) ,delete(DELETE)
 
 ### Networking
-- [Add list of network requests by screen ]
-- 
+[Add list of network requests by screen ]
+
 ### List of network requests by screen
 
 * Login Screen
