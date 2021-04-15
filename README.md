@@ -1,6 +1,7 @@
 APP GROUP PROJECT - README
 ===
-#TOPWALKER
+# TOPWALKER 
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
@@ -116,7 +117,7 @@ APP GROUP PROJECT - README
 ## Wireframes
 
 
-![View_Sketch](https://user-images.githubusercontent.com/42243986/114639374-a9f1eb80-9c9b-11eb-82a2-d8615c45f758.jpg)
+[TopWalker_sketch.pdf](https://github.com/Hammadus/TopWalker/files/6318173/TopWalker_sketch.pdf)
 
 
 ### [BONUS] Digital Wireframes & Mockups
