@@ -99,13 +99,13 @@ APP GROUP PROJECT - README
 **Flow Navigation** (Screen to Screen)
 
 * Log-in 
-   * => Account Sign up if no log in is available
+   * => Account Sign up Screen if no log in is available
 * Create Session Screen
-   * Adding Session Info Screen
+   * => Adding Session Info Screen
 * Timeline Screen
-   * Time UP Screen
+   * => Time UP Screen
 * FriendList Screen
-   * Detailed Friend Info Screen
+   * => Detailed Friend Info Screen
 * User Profile Setting Screen
    * None
 
