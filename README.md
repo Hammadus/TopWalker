@@ -1,6 +1,6 @@
-App Spec Design - Top Walker
+APP GROUP PROJECT - README
 ===
-
+#TOPWALKER
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
@@ -9,7 +9,7 @@ App Spec Design - Top Walker
 
 ## Overview
 ### Description
-* An App that motivates users to become physically Active by giving an opportunity to compete with other users around.
+* An App that motivates users to become physically Active by giving them opportunity to compete with other users and earn Real Cash and Rewards. User can compete with other people, friends or family by adding them to the session and set the time period as well as the final cash price as a reward. Session member with the most amount of steps and Calorie Burn would be consider as the "Winner" of the session and take the Reward.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -52,18 +52,38 @@ App Spec Design - Top Walker
 * User can see the steps taken by other members in the session
 * User can join other session by entering session id #
 * User can join other sessions on the basis of their Neighborhood, City or State
+* User will be able to compete with the Same-Age Group Users
+
 
 ### 2. Screen Archetypes
 
+* Login Screen
+   * User can login with username and password
+* New User SignUp Screen
+   * User can sign up for a new account by adding (username,password, Age, Weight, Height)
 * Create Session Screen
-   * session screen allows one to add others to the group 
-   * people will have the ability to add others to the task
-   * User make an account and add other people/friends 
-* Progress Screen
-   * timeline using the google api/Apple Health API
+   * User can Create a new activity session 
+* Adding Session Info Screen
+   * User can view the ID assigned to specific session
+   * User can choose/Enter the Money Amount for the session being created
+   * User can Add friend(s) from the Friends List to the session being created
+   * User can choose time period for the session
+* Timeline Screen
+   * User can view the record of their steps taken (steps measured through Health API)
+   * User can view the time left till the session ends
    * tracks steps walked over time in calendar view as well
-* End session Screen
-   * when the session is over, users will have to pick a payment option to send to the winner
+* Time UP Screen
+   * User can see the TIME UP screen with the name of the winner
+   * User can choose one of the Payment Methods to pay the winner
+* FriendList Screen
+   * User can add other user(s) as a friend to the FriendList
+* Detailed FriendList Screen
+   * User can see the detailed info of other user in the Friendlist
+
+* User Profile Setting Screen
+   * User can view their Profile info with Name, Age, Weight, Height in Profile/Setting Tab
+
+
 
 ### 3. Navigation
 
