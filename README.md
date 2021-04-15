@@ -1,7 +1,5 @@
-Original App Design Project - README Template
+App Spec Design - Top Walker
 ===
-
-# TopWalker
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -30,24 +28,30 @@ Original App Design Project - README Template
 
 * User can sign up for a new account
 * User can login with username and password
-* User can Create a new session
-* User can choose the Money Amount for the session being created
-* User can Add friends to the session being created
+* User can view the record of their steps taken (steps measured through Health API)
+
+* User can add other user(s) as a friend to the FriendList
+* User can see the detailed info of other user in the Friendlist
+
+* User can Create a new activity session 
+* User can view the ID assigned to specific session
+* User can choose/Enter the Money Amount for the session being created
+* User can Add friend(s) from the Friends List to the session being created
 * User can choose time period for the session
-* User can view the record of their steps taken
+
 * User can view the time left till the session ends
 * User can see the TIME UP screen with the name of the winner
 * User can choose Payment Method to pay the winner
-* User can add Friends to the FriendList
-* User can view his/her Profile
 
-* As a user, I want to have the option of adding steps to a total counter to get to my ultimate goal of 10k steps a day
-* As a user, I want to have something that will be able to keep a history of my progress to see how far I've come, and who motivates me the motivates
-* As a user I want to have an app that syncs with others to track goals
+* User can view their Profile info with Name, Age, Weight, Height in Profile/Setting Tab
 
 **Optional Nice-to-have Stories**
-
-* User can view the other members in the session
+* User can edit their info after sign up screen is gone
+* User can unfriend other users from their friendList
+* User can view the other members in the current session
+* User can see the steps taken by other members in the session
+* User can join other session by entering session id #
+* User can join other sessions on the basis of their Neighborhood, City or State
 
 ### 2. Screen Archetypes
 
