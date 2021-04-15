@@ -128,17 +128,17 @@ APP GROUP PROJECT - README
 
 Property | Type | Description
 | :--- | :--- | :---
-nameOfUser  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
-Age  | Content Cell | Content Cell
+nameOfUser  | Pointer to User | user in charge
+userAge     | Number | age of user  
+userWeight  | Number | weight of user
+userHeight  | Number | height of user  
+stepCount  | Number | number of steps by user retrieved from api
+sessionId  | String | unique id of the session (default)
+moneyAmount  | Number | Ampount of money user began session with
+friendListCount  | Number | Total number of users in the Friend List
+numberOfFriendsinSession  | Number | number of friends currently in the session
+timeChosen  | Number | Time Period Chosen for the session
+timeLeft  | Number | Amount of time left until session ends 
 
 ### Models
 [Add table of models]
