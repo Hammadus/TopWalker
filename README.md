@@ -99,7 +99,7 @@ APP GROUP PROJECT - README
 **Flow Navigation** (Screen to Screen)
 
 * Log-in 
-   * Account Sign up if no log in is available
+   * => Account Sign up if no log in is available
 * Create Session Screen
    * Adding Session Info Screen
 * Timeline Screen
@@ -112,9 +112,6 @@ APP GROUP PROJECT - README
 
 
 
-* Sesssion Screen
-   * lists relevant info for creating/inviting people to the session
-   * leads to end screen where link redirects to payment apps
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
