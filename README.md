@@ -117,7 +117,7 @@ APP GROUP PROJECT - README
 ## Wireframes
 
 
-[TopWalker_sketch.pdf](https://github.com/Hammadus/TopWalker/files/6318173/TopWalker_sketch.pdf)
+![TopWalker_sketch](https://user-images.githubusercontent.com/42243986/114875376-3cdd7380-9dcb-11eb-89d1-42c02b8dc10e.jpg)
 
 
 ### [BONUS] Digital Wireframes & Mockups
