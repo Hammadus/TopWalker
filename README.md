@@ -1,4 +1,3 @@
-![TopWalker_framework](https://user-images.githubusercontent.com/42243986/114877224-1587a600-9dcd-11eb-8b3b-49f983222b93.JPG)
 APP GROUP PROJECT - README
 ===
 # TOPWALKER 
