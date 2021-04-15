@@ -48,11 +48,13 @@ APP GROUP PROJECT - README
 **Optional Nice-to-have Stories**
 * User can edit their info after sign up screen is gone
 * User can unfriend other users from their friendList
+* Users can chat within a session
 * User can view the other members in the current session
 * User can see the steps taken by other members in the session
 * User can join other session by entering session id #
 * User can join other sessions on the basis of their Neighborhood, City or State
 * User will be able to compete with the Same-Age Group Users
+
 
 
 ### 2. Screen Archetypes
@@ -77,7 +79,7 @@ APP GROUP PROJECT - README
    * User can choose one of the Payment Methods to pay the winner
 * FriendList Screen
    * User can add other user(s) as a friend to the FriendList
-* Detailed FriendList Screen
+* Detailed Friend Info Screen
    * User can see the detailed info of other user in the Friendlist
 
 * User Profile Setting Screen
@@ -89,14 +91,27 @@ APP GROUP PROJECT - README
 
 **Tab Navigation** (Tab to Screen)
 
-* user profile
-* timeline
+* Create Session Screen
+* Timeline Screen
+* FriendList Screen
+* User Profile Setting Screen
 
 **Flow Navigation** (Screen to Screen)
 
-* Launch Screen
-   * Create session
-   * profile tabe, timeline tab
+* Log-in 
+   * Account Sign up if no log in is available
+* Create Session Screen
+   * Adding Session Info Screen
+* Timeline Screen
+   * Time UP Screen
+* FriendList Screen
+   * Detailed Friend Info Screen
+* User Profile Setting Screen
+   * None
+
+
+
+
 * Sesssion Screen
    * lists relevant info for creating/inviting people to the session
    * leads to end screen where link redirects to payment apps
