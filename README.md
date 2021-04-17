@@ -10,7 +10,12 @@ APP GROUP PROJECT - README
 
 ## Overview
 ### Description
-* An App that motivates users to become physically Active by giving them opportunity to compete with other users and earn Real Cash and Rewards. User can compete with other people, friends or family by adding them to the session and set the time period as well as the final cash price as a reward. Session member with the most amount of steps and Calorie Burn would be consider as the "Winner" of the session and take the Reward.
+* **"An App that motivates user to become physically Active by giving one an opportunity to compete with other users and earn Real Cash and Rewards"** 
+* User can compete with friends, family or just random people by
+   * Adding them to the session from friendlist
+   * Setting the time period of the Session
+   * Final cash price which each user contributes to as a final reward. 
+* Session member with the most amount of steps and Calorie Burn would be consider as the "Winner" of the session and earn the achievemnt badge as well as take the final Reward Home.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
