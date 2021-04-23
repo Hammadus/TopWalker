@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2435035C7B179D8F501F85F2 /* Pods_TopWalker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2EB7CBEFA6CACEFF4AA0A1 /* Pods_TopWalker.framework */; };
 		84E563782632F366009D152E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E563772632F366009D152E /* AppDelegate.swift */; };
 		84E5637A2632F366009D152E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E563792632F366009D152E /* SceneDelegate.swift */; };
 		84E5637C2632F366009D152E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5637B2632F366009D152E /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		84E563842632F36A009D152E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E563822632F36A009D152E /* LaunchScreen.storyboard */; };
 		84E5638F2632F36A009D152E /* TopWalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5638E2632F36A009D152E /* TopWalkerTests.swift */; };
 		84E5639A2632F36A009D152E /* TopWalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E563992632F36A009D152E /* TopWalkerUITests.swift */; };
+		8E733840B2C1DA7B6070DFFC /* Pods_TopWalker_TopWalkerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBC13B834F706623D63984E /* Pods_TopWalker_TopWalkerUITests.framework */; };
+		CDFBCADCCCC0315AE8DF002E /* Pods_TopWalkerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DEDCBE8971442F0084039A /* Pods_TopWalkerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EBC13B834F706623D63984E /* Pods_TopWalker_TopWalkerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopWalker_TopWalkerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EB2DD0ADA50B9995FF3B2A /* Pods-TopWalker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalker.release.xcconfig"; path = "Target Support Files/Pods-TopWalker/Pods-TopWalker.release.xcconfig"; sourceTree = "<group>"; };
+		2A2EB7CBEFA6CACEFF4AA0A1 /* Pods_TopWalker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopWalker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		512C644A9D463E07EB7BA1D1 /* Pods-TopWalkerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalkerTests.debug.xcconfig"; path = "Target Support Files/Pods-TopWalkerTests/Pods-TopWalkerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F62EA9BF7217C138E9B709D /* Pods-TopWalker-TopWalkerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalker-TopWalkerUITests.release.xcconfig"; path = "Target Support Files/Pods-TopWalker-TopWalkerUITests/Pods-TopWalker-TopWalkerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76B1BD5AD771C1F85841A982 /* Pods-TopWalker-TopWalkerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalker-TopWalkerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TopWalker-TopWalkerUITests/Pods-TopWalker-TopWalkerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		84E563742632F366009D152E /* TopWalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopWalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E563772632F366009D152E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E563792632F366009D152E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		84E563952632F36A009D152E /* TopWalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopWalkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E563992632F36A009D152E /* TopWalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopWalkerUITests.swift; sourceTree = "<group>"; };
 		84E5639B2632F36A009D152E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3437A587CDA46C062548AD /* Pods-TopWalkerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalkerTests.release.xcconfig"; path = "Target Support Files/Pods-TopWalkerTests/Pods-TopWalkerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7DEDCBE8971442F0084039A /* Pods_TopWalkerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopWalkerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DD9740F8D118ED14FB82EA /* Pods-TopWalker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalker.debug.xcconfig"; path = "Target Support Files/Pods-TopWalker/Pods-TopWalker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2435035C7B179D8F501F85F2 /* Pods_TopWalker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFBCADCCCC0315AE8DF002E /* Pods_TopWalkerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E733840B2C1DA7B6070DFFC /* Pods_TopWalker_TopWalkerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1D5E36E25CDBB4473C70C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7DD9740F8D118ED14FB82EA /* Pods-TopWalker.debug.xcconfig */,
+				20EB2DD0ADA50B9995FF3B2A /* Pods-TopWalker.release.xcconfig */,
+				76B1BD5AD771C1F85841A982 /* Pods-TopWalker-TopWalkerUITests.debug.xcconfig */,
+				6F62EA9BF7217C138E9B709D /* Pods-TopWalker-TopWalkerUITests.release.xcconfig */,
+				512C644A9D463E07EB7BA1D1 /* Pods-TopWalkerTests.debug.xcconfig */,
+				BD3437A587CDA46C062548AD /* Pods-TopWalkerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84E5636B2632F366009D152E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				84E5638D2632F36A009D152E /* TopWalkerTests */,
 				84E563982632F36A009D152E /* TopWalkerUITests */,
 				84E563752632F366009D152E /* Products */,
+				0E1D5E36E25CDBB4473C70C4 /* Pods */,
+				A13CF25E9C2F96EFE24793A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = TopWalkerUITests;
 			sourceTree = "<group>";
 		};
+		A13CF25E9C2F96EFE24793A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2EB7CBEFA6CACEFF4AA0A1 /* Pods_TopWalker.framework */,
+				1EBC13B834F706623D63984E /* Pods_TopWalker_TopWalkerUITests.framework */,
+				C7DEDCBE8971442F0084039A /* Pods_TopWalkerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E5639E2632F36A009D152E /* Build configuration list for PBXNativeTarget "TopWalker" */;
 			buildPhases = (
+				C21E64B6812EEEDD9F2BC2D5 /* [CP] Check Pods Manifest.lock */,
 				84E563702632F366009D152E /* Sources */,
 				84E563712632F366009D152E /* Frameworks */,
 				84E563722632F366009D152E /* Resources */,
+				12501DACEE48C741B4E55E0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E563A12632F36A009D152E /* Build configuration list for PBXNativeTarget "TopWalkerTests" */;
 			buildPhases = (
+				C4FE431FAE4FD259DA8D0BC5 /* [CP] Check Pods Manifest.lock */,
 				84E563862632F36A009D152E /* Sources */,
 				84E563872632F36A009D152E /* Frameworks */,
 				84E563882632F36A009D152E /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E563A42632F36A009D152E /* Build configuration list for PBXNativeTarget "TopWalkerUITests" */;
 			buildPhases = (
+				54F9FE7D517E68A8574D066C /* [CP] Check Pods Manifest.lock */,
 				84E563912632F36A009D152E /* Sources */,
 				84E563922632F36A009D152E /* Frameworks */,
 				84E563932632F36A009D152E /* Resources */,
+				6FB885AE174B7019EA932FE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12501DACEE48C741B4E55E0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopWalker/Pods-TopWalker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopWalker/Pods-TopWalker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopWalker/Pods-TopWalker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F9FE7D517E68A8574D066C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopWalker-TopWalkerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FB885AE174B7019EA932FE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopWalker-TopWalkerUITests/Pods-TopWalker-TopWalkerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopWalker-TopWalkerUITests/Pods-TopWalker-TopWalkerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopWalker-TopWalkerUITests/Pods-TopWalker-TopWalkerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C21E64B6812EEEDD9F2BC2D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopWalker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FE431FAE4FD259DA8D0BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopWalkerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84E563702632F366009D152E /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		84E5639F2632F36A009D152E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DD9740F8D118ED14FB82EA /* Pods-TopWalker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		84E563A02632F36A009D152E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20EB2DD0ADA50B9995FF3B2A /* Pods-TopWalker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		84E563A22632F36A009D152E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512C644A9D463E07EB7BA1D1 /* Pods-TopWalkerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		84E563A32632F36A009D152E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3437A587CDA46C062548AD /* Pods-TopWalkerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		84E563A52632F36A009D152E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B1BD5AD771C1F85841A982 /* Pods-TopWalker-TopWalkerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		84E563A62632F36A009D152E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F62EA9BF7217C138E9B709D /* Pods-TopWalker-TopWalkerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
