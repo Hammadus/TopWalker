@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2435035C7B179D8F501F85F2 /* Pods_TopWalker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2EB7CBEFA6CACEFF4AA0A1 /* Pods_TopWalker.framework */; };
+		847DF56A26381FA30031A839 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DF56926381FA30031A839 /* LoginViewController.swift */; };
+		847DF56F263820030031A839 /* FriendlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DF56E263820030031A839 /* FriendlistViewController.swift */; };
+		84B7D7382638509300F441FF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D7372638509300F441FF /* SignupViewController.swift */; };
 		84E563782632F366009D152E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E563772632F366009D152E /* AppDelegate.swift */; };
 		84E5637A2632F366009D152E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E563792632F366009D152E /* SceneDelegate.swift */; };
 		84E5637C2632F366009D152E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5637B2632F366009D152E /* ViewController.swift */; };
@@ -44,6 +47,9 @@
 		512C644A9D463E07EB7BA1D1 /* Pods-TopWalkerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalkerTests.debug.xcconfig"; path = "Target Support Files/Pods-TopWalkerTests/Pods-TopWalkerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F62EA9BF7217C138E9B709D /* Pods-TopWalker-TopWalkerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalker-TopWalkerUITests.release.xcconfig"; path = "Target Support Files/Pods-TopWalker-TopWalkerUITests/Pods-TopWalker-TopWalkerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		76B1BD5AD771C1F85841A982 /* Pods-TopWalker-TopWalkerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalker-TopWalkerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TopWalker-TopWalkerUITests/Pods-TopWalker-TopWalkerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		847DF56926381FA30031A839 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		847DF56E263820030031A839 /* FriendlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlistViewController.swift; sourceTree = "<group>"; };
+		84B7D7372638509300F441FF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		84E563742632F366009D152E /* TopWalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopWalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E563772632F366009D152E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E563792632F366009D152E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +107,6 @@
 				512C644A9D463E07EB7BA1D1 /* Pods-TopWalkerTests.debug.xcconfig */,
 				BD3437A587CDA46C062548AD /* Pods-TopWalkerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +142,9 @@
 				84E563802632F36A009D152E /* Assets.xcassets */,
 				84E563822632F36A009D152E /* LaunchScreen.storyboard */,
 				84E563852632F36A009D152E /* Info.plist */,
+				847DF56926381FA30031A839 /* LoginViewController.swift */,
+				847DF56E263820030031A839 /* FriendlistViewController.swift */,
+				84B7D7372638509300F441FF /* SignupViewController.swift */,
 			);
 			path = TopWalker;
 			sourceTree = "<group>";
@@ -407,8 +415,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B7D7382638509300F441FF /* SignupViewController.swift in Sources */,
+				847DF56A26381FA30031A839 /* LoginViewController.swift in Sources */,
 				84E5637C2632F366009D152E /* ViewController.swift in Sources */,
 				84E563782632F366009D152E /* AppDelegate.swift in Sources */,
+				847DF56F263820030031A839 /* FriendlistViewController.swift in Sources */,
 				84E5637A2632F366009D152E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
