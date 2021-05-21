@@ -19,9 +19,6 @@ APP GROUP PROJECT - README
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='http://g.recordit.co/unt7sA3jkg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -143,58 +140,6 @@ Here's a walkthrough of implemented user stories:
 [Add table of models]
 
 
-### User
-Property | Type | Description
-| :--- | :--- | :---
-nameOfUser  | Pointer to User | user in charge
-userPass     | String| Encrypted password of user 
-userAge     | Number | age of user  
-userWeight  | Number | weight of user
-userHeight  | Number | height of user 
-userCityState  | String | City and State of the user
-stepCount  | Number | number of steps by user retrieved from api
-friendListCount  | Number | Total number of users in the Friend List
-
-### Session
-Property | Type | Description
-| :--- | :--- | :---
-sessionId  | String | unique id of the session (default)
-moneyAmount  | Number | Ampount of money user began session with
-timeChosen  | Number | Time Period Chosen for the session
-timeLeft  | Number | Amount of time left until session ends 
-winnerUser | String | Name of the user with highest steps when session ends
-numberOfFriendsinSession  | Number | number of friends currently in the session
-
-
-create(POST) , read(GET), update(PUT) ,delete(DELETE)
-
-### Networking
-[Add list of network requests by screen ]
-
-### List of network requests by screen
-
-* Login Screen
-   * (Read/GET) Query log in user object
-* New User SignUp Screen
-   * (Create/POST) Create a new user
-* Create Session Screen
-   * (Create/POST) Create a new Session
-* Adding Session Info Screen
-   * (Update/PUT) Update the money amount 0 with new amount entered by current user
-   * (Update/PUT) Add the friends(other users) from the friendlist to the session
-   * (Update/PUT) Update the time period 0 with new time period entered by current user (time in weeks)
-* Timeline Screen
-   * (Read/GET) Query the steps of current user
-   * (Read/GET) Calculate the time left until session ends
-* Time UP Screen
-   * (Read/GET) Query the user from the session list with highest steps earned at the time of session ending
-* FriendList Screen
-   * (Update/PUT) Use Add Button to add users from database to the friendlist array using their username (all users are in database)
-   * (Read/GET) Query the list of users in the Friendist of current user 
-* Detailed Friend Info Screen
-   * (Read/GET) Query the info of selected user from the friendlist
-* User Profile Setting Screen
-   * (Read/GET) Query the current user's name, Age, Weight, Height, City w/ State 
 
 
 
