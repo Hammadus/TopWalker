@@ -21,6 +21,13 @@
 		84E5639A2632F36A009D152E /* TopWalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E563992632F36A009D152E /* TopWalkerUITests.swift */; };
 		8E733840B2C1DA7B6070DFFC /* Pods_TopWalker_TopWalkerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBC13B834F706623D63984E /* Pods_TopWalker_TopWalkerUITests.framework */; };
 		CDFBCADCCCC0315AE8DF002E /* Pods_TopWalkerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DEDCBE8971442F0084039A /* Pods_TopWalkerTests.framework */; };
+		DF8AB0782657117100A69212 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB0772657117100A69212 /* HealthStore.swift */; };
+		DF8AB07A265711F200A69212 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB079265711F200A69212 /* ProfileViewController.swift */; };
+		DF8AB07C2657152400A69212 /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB07B2657152400A69212 /* StepsViewController.swift */; };
+		DF8AB07E265729AA00A69212 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB07D265729AA00A69212 /* SessionViewController.swift */; };
+		DF8AB080265729DB00A69212 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB07F265729DB00A69212 /* CreateViewController.swift */; };
+		DF8AB0822657836100A69212 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB0812657836100A69212 /* LoginViewController.swift */; };
+		DF8AB08426578F9100A69212 /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB08326578F9100A69212 /* SessionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +73,13 @@
 		84E5639B2632F36A009D152E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3437A587CDA46C062548AD /* Pods-TopWalkerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalkerTests.release.xcconfig"; path = "Target Support Files/Pods-TopWalkerTests/Pods-TopWalkerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C7DEDCBE8971442F0084039A /* Pods_TopWalkerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopWalkerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8AB0772657117100A69212 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		DF8AB079265711F200A69212 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DF8AB07B2657152400A69212 /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		DF8AB07D265729AA00A69212 /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		DF8AB07F265729DB00A69212 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		DF8AB0812657836100A69212 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DF8AB08326578F9100A69212 /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
 		E7DD9740F8D118ED14FB82EA /* Pods-TopWalker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopWalker.debug.xcconfig"; path = "Target Support Files/Pods-TopWalker/Pods-TopWalker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,9 +156,14 @@
 				84E563802632F36A009D152E /* Assets.xcassets */,
 				84E563822632F36A009D152E /* LaunchScreen.storyboard */,
 				84E563852632F36A009D152E /* Info.plist */,
-				847DF56926381FA30031A839 /* LoginViewController.swift */,
-				847DF56E263820030031A839 /* FriendlistViewController.swift */,
-				84B7D7372638509300F441FF /* SignupViewController.swift */,
+				DF8AB0772657117100A69212 /* HealthStore.swift */,
+				DF8AB079265711F200A69212 /* ProfileViewController.swift */,
+				DF8AB07B2657152400A69212 /* StepsViewController.swift */,
+				DF8AB07D265729AA00A69212 /* SessionViewController.swift */,
+				DF8AB07F265729DB00A69212 /* CreateViewController.swift */,
+				DF8AB0812657836100A69212 /* LoginViewController.swift */,
+				DF8AB08326578F9100A69212 /* SessionCell.swift */,
+
 			);
 			path = TopWalker;
 			sourceTree = "<group>";
@@ -415,12 +434,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B7D7382638509300F441FF /* SignupViewController.swift in Sources */,
-				847DF56A26381FA30031A839 /* LoginViewController.swift in Sources */,
+				DF8AB0822657836100A69212 /* LoginViewController.swift in Sources */,
+				DF8AB080265729DB00A69212 /* CreateViewController.swift in Sources */,
+				DF8AB08426578F9100A69212 /* SessionCell.swift in Sources */,
 				84E5637C2632F366009D152E /* ViewController.swift in Sources */,
 				84E563782632F366009D152E /* AppDelegate.swift in Sources */,
-				847DF56F263820030031A839 /* FriendlistViewController.swift in Sources */,
+				DF8AB07A265711F200A69212 /* ProfileViewController.swift in Sources */,
+
 				84E5637A2632F366009D152E /* SceneDelegate.swift in Sources */,
+				DF8AB07C2657152400A69212 /* StepsViewController.swift in Sources */,
+				DF8AB07E265729AA00A69212 /* SessionViewController.swift in Sources */,
+				DF8AB0782657117100A69212 /* HealthStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,13 +622,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6M2MNNC6R9;
+				DEVELOPMENT_TEAM = VZH7B2S7B6;
 				INFOPLIST_FILE = TopWalker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = haxxter1977.TopWalker;
+				PRODUCT_BUNDLE_IDENTIFIER = haxxter1977635634543.TopWalker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -618,13 +642,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6M2MNNC6R9;
+				DEVELOPMENT_TEAM = VZH7B2S7B6;
 				INFOPLIST_FILE = TopWalker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = haxxter1977.TopWalker;
+				PRODUCT_BUNDLE_IDENTIFIER = haxxter1977635634543.TopWalker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
