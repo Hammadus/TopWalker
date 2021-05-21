@@ -17,6 +17,19 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        usernameField.layer.cornerRadius = 15
+        usernameField.layer.borderColor = UIColor.gray.withAlphaComponent(0.5).cgColor
+        usernameField.layer.borderWidth = 1
+        usernameField.clipsToBounds = true
+        passwordField.layer.cornerRadius = 15
+        passwordField.layer.borderColor = UIColor.gray.withAlphaComponent(0.5).cgColor
+        passwordField.layer.borderWidth = 1
+        passwordField.clipsToBounds = true
+        
+        usernameField.attributedPlaceholder = NSAttributedString(string: "USERNAME",
+                                     attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+        passwordField.attributedPlaceholder = NSAttributedString(string: "PASSWORD",
+                                     attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
 
         // Do any additional setup after loading the view.
     }
@@ -33,6 +46,8 @@ class LoginViewController: UIViewController {
             }
         }
     }
+    
+    
     
     
     /*

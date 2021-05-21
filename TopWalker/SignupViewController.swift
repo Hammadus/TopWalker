@@ -18,9 +18,28 @@ class SignupViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        nameField.layer.cornerRadius = 15
+        nameField.layer.borderColor = UIColor.gray.withAlphaComponent(0.5).cgColor
+        nameField.layer.borderWidth = 1
+        nameField.clipsToBounds = true
+        passField.layer.cornerRadius = 15
+        passField.layer.borderColor = UIColor.gray.withAlphaComponent(0.5).cgColor
+        passField.layer.borderWidth = 1
+        passField.clipsToBounds = true
+        userField.layer.cornerRadius = 15
+        userField.layer.borderColor = UIColor.gray.withAlphaComponent(0.5).cgColor
+        userField.layer.borderWidth = 1
+        userField.clipsToBounds = true
+        
+        
+        nameField.attributedPlaceholder = NSAttributedString(string: "Enter Full Name",
+                                     attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+        passField.attributedPlaceholder = NSAttributedString(string: "Choose Password",
+                                     attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+        userField.attributedPlaceholder = NSAttributedString(string: "Choose Username",
+                                     attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
     }
     
-   
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
         user.username = userField.text
@@ -34,6 +53,8 @@ class SignupViewController: UIViewController {
             }
         }
     }
+    
+
     
     /*
     // MARK: - Navigation
