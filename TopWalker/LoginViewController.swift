@@ -2,7 +2,9 @@
 //  LoginViewController.swift
 //  TopWalker
 //
+
 //  Created by Dong Kelly on 5/21/21.
+
 //
 
 import UIKit
@@ -13,7 +15,6 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var usernameField: UITextField!
     
     @IBOutlet weak var passwordField: UITextField!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,7 @@ class LoginViewController: UIViewController {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             } else {
                 print("Error Signing Up: \(String(describing: error?.localizedDescription))")
+
             }
         }
     }
@@ -47,6 +49,7 @@ class LoginViewController: UIViewController {
         }
 
     }
+
     /*
     // MARK: - Navigation
 
